@@ -4,7 +4,7 @@ applications:
   memory: 1024M
   stack: windows
   buildpacks:
-   - https://github.com/alfusinigoj/web-config-transform-buildpack-1/releases/download/1.1.10-pre3/Web.Config.Transform.Buildpack-win-x64-1.1.10-pre3.zip
+   - https://github.com/alfusinigoj/web-config-transform-buildpack-1/releases/download/1.1.10-pre5/Web.Config.Transform.Buildpack-win-x64-1.1.10-pre5.zip
    - https://github.com/cloudfoundry/hwc-buildpack/releases/download/v3.1.13/hwc-buildpack-windows-v3.1.13.zip
   services:
     - sc-config-server
@@ -12,4 +12,5 @@ applications:
   env:
     ASPNETCORE_ENVIRONMENT: dev
     TRACE_ENABLED: true
+    TRACE_CONFIG_ENABLED: true
 ---
