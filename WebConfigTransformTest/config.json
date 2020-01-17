@@ -1,0 +1,7 @@
+{
+	"git": {
+		"uri": "https://github.com/alfusinigoj/config-server-repo.git",
+		"skipSslValidation": true,
+		"searchPaths": "*"
+	}
+}
